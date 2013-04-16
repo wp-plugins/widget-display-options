@@ -68,6 +68,7 @@ When a widget is "hidden" by this plugin it's code is never output to the page. 
 We are not able to provide anything other than community based support for this version of Widget Display Options. Please consider upgrading to [Widget Display Options Pro](http://dojodigital.com/downloads/widget-display-options-pro/) for access to our premium support forums.
 
 == Screenshots ==
+
 1. Widget Display Options adds extra input fields to the bottom of your active widgets.
 2. Check the box labeled "Conditional Display" to access the display options.
 
