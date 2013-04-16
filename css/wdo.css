@@ -1,0 +1,208 @@
+.wdo-hide {
+	display:none;
+}
+
+.wdo-display-options {
+	clear:both;
+	background-color:#FFF;
+	border:1px solid #CCC;
+	border-radius:3px;
+	margin:0 0 25px 0;
+	float:right;
+	width:100%;
+}
+
+.wdo-display-options h4 {	
+	border-bottom:1px solid #CCC;	
+	border-top:1px solid #CCC;	
+	margin:0;
+	padding:6px 10px 5px 10px;
+	background:#EEE;
+	position:relative;
+}
+
+.wdo-display-options h4.wdo-top  {
+	border-top:0 !important;	
+	border-radius:5px 5px 0 0;	
+}
+
+.wdo-display-options h4 a.wdo-hide-me, .wdo-display-options h4 a.wdo-display-options-hide-me {
+	position: absolute;
+	right:10px;
+	top:5px;
+	font-size:.8em;
+	font-weight:normal;
+}
+
+input.wdo-class-list {
+	width:100%;
+}
+
+label.wdo-hide-from-print {
+	padding:10px 0 5px;
+}
+
+.wdo-conditional-checked {
+	font-weight:bold;
+}
+
+.wdo-container {
+	position:relative;
+}
+
+.wdo-not {
+	position:absolute;
+	top:7px;
+	right:7px;
+	line-height:1em;
+}
+
+.wdo-display-options h4.wdo-logic-not-checked {
+	 border-bottom:none;
+	 font-weight:normal;
+}
+
+.wdo-logic small.description {
+	display:block;
+	margin-bottom:5px;
+}
+
+input.wdo-textfield {
+	width:100%;
+	font-size:.9em;
+	margin:7px 0 3px;
+}
+
+input.wdo-has-helper {
+}
+
+a.wdo-helper {
+	float:right;
+	border:1px solid #CCC;
+	border-radius:3px;
+	padding:0 6px;
+	font-size:1.1em;
+	line-height:1.5em;
+	margin:3px 0 0 0;
+	background:none;
+	box-shadow:none;
+	background-color:#EEE;
+	color:#444;
+	display:inline-block;
+	outline:0;
+}
+
+a.wdo-helper:hover {
+	background-color:#DDD;
+	cursor: pointer;
+}
+
+select.wdo-helper-select {
+	width:100%;
+}
+
+.wdo-section {	
+	padding:10px;
+	line-height:1.8em;
+	width:auto !important;
+}
+
+p.wdo-built-ins {
+	font-size:.9em;
+	color:#999;
+	font-style: italic;
+	line-height:1.4em;
+	margin:5px 0 0 0 !important;
+}
+
+.wdo-relationship {
+	background-color:#f4f5fc;
+	border-bottom: 1px dashed #CCC;
+}
+
+.wdo-logic-toggles {
+	background-color:#f4f5fc;	
+}
+
+.wdo-conditional-has-input {
+	border-top:1px dashed #CCC;
+	padding:5px 5px 0 5px !important;
+	margin:10px 0 0 0 !important;
+	line-height:1.4em;
+	background-color: #ffffe0;
+}
+
+.wdo-conditional-active {
+	border-top:1px dashed #CCC;	
+	border-bottom:1px dashed #CCC;
+	padding:5px !important;
+	margin:10px 0 !important;
+	line-height:1.4em;
+	background-color: #ffffe0;
+}
+
+.wdo-conditionals fieldset {
+	border-top:1px dashed #ccc;
+	margin:5px 0;
+}
+
+.wdo-conditionals fieldset .wdo-functions {
+	padding:10px;
+}
+
+.wdo-conditionals fieldset legend {
+    background-color:#FFF;
+}
+
+.wdo-conditionals fieldset legend a {
+	text-decoration: none;
+	outline: 0;
+}
+
+.wdo-conditionals fieldset legend a span {
+	font-family: monospace;
+}
+
+.wdo-conditionals fieldset legend a strong {
+	color:#333;
+	font-weight: normal;
+}
+
+.wdo-conditionals fieldset.wdo-fieldset-active legend a strong {
+	font-weight: bold;
+}
+
+.wdo-conditionals fieldset.wdo-fieldset-active .wdo-functions {
+	display:block;
+}
+
+a.wdo-tooltip, a.wdo-help {
+	width:14px;
+	height:14px;
+	vertical-align:text-bottom;
+	text-indent:-5000px;
+	text-align: left;
+	display: inline-block;
+	background: transparent url(../im/help-icon.png) no-repeat 0 0;
+	outline:0;	
+}
+
+a.wdo-tooltip:hover, a.wdo-help:hover {
+	background-position: 0 -14px;
+	outline:0;	
+}
+
+a.wdo-tooltip:active, a.wdo-help:active {
+	outline:0;	
+}
+
+.qtip-title {
+	border-bottom:1px dashed #CCC;
+	font-size:1.2em;
+}
+
+p.wdo-accepts, p.wdo-more {
+	color:#666;
+	font-size:.9em;
+}
+
